@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF290652933A9F300EA5644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF290642933A9F300EA5644 /* AppDelegate.m */; };
+		BFF290682933A9F300EA5644 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF290672933A9F300EA5644 /* SceneDelegate.m */; };
+		BFF2906B2933A9F300EA5644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF2906A2933A9F300EA5644 /* ViewController.m */; };
+		BFF2906E2933A9F300EA5644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF2906C2933A9F300EA5644 /* Main.storyboard */; };
+		BFF290702933A9F500EA5644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF2906F2933A9F500EA5644 /* Assets.xcassets */; };
+		BFF290732933A9F500EA5644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF290712933A9F500EA5644 /* LaunchScreen.storyboard */; };
+		BFF290762933A9F500EA5644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF290752933A9F500EA5644 /* main.m */; };
+		BFF290802933A9F500EA5644 /* GolangAceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF2907F2933A9F500EA5644 /* GolangAceTests.m */; };
+		BFF2908A2933A9F500EA5644 /* GolangAceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF290892933A9F500EA5644 /* GolangAceUITests.m */; };
+		BFF2908C2933A9F500EA5644 /* GolangAceUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF2908B2933A9F500EA5644 /* GolangAceUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF2907C2933A9F500EA5644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF290582933A9F300EA5644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF2905F2933A9F300EA5644;
+			remoteInfo = GolangAce;
+		};
+		BFF290862933A9F500EA5644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF290582933A9F300EA5644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF2905F2933A9F300EA5644;
+			remoteInfo = GolangAce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF290602933A9F300EA5644 /* GolangAce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolangAce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF290632933A9F300EA5644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFF290642933A9F300EA5644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFF290662933A9F300EA5644 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BFF290672933A9F300EA5644 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BFF290692933A9F300EA5644 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFF2906A2933A9F300EA5644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFF2906D2933A9F300EA5644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF2906F2933A9F500EA5644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF290722933A9F500EA5644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF290742933A9F500EA5644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF290752933A9F500EA5644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF2907B2933A9F500EA5644 /* GolangAceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolangAceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF2907F2933A9F500EA5644 /* GolangAceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolangAceTests.m; sourceTree = "<group>"; };
+		BFF290852933A9F500EA5644 /* GolangAceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolangAceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF290892933A9F500EA5644 /* GolangAceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolangAceUITests.m; sourceTree = "<group>"; };
+		BFF2908B2933A9F500EA5644 /* GolangAceUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolangAceUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF2905D2933A9F300EA5644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF290782933A9F500EA5644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF290822933A9F500EA5644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF290572933A9F300EA5644 = {
+			isa = PBXGroup;
+			children = (
+				BFF290622933A9F300EA5644 /* GolangAce */,
+				BFF2907E2933A9F500EA5644 /* GolangAceTests */,
+				BFF290882933A9F500EA5644 /* GolangAceUITests */,
+				BFF290612933A9F300EA5644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF290612933A9F300EA5644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF290602933A9F300EA5644 /* GolangAce.app */,
+				BFF2907B2933A9F500EA5644 /* GolangAceTests.xctest */,
+				BFF290852933A9F500EA5644 /* GolangAceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF290622933A9F300EA5644 /* GolangAce */ = {
+			isa = PBXGroup;
+			children = (
+				BFF290632933A9F300EA5644 /* AppDelegate.h */,
+				BFF290642933A9F300EA5644 /* AppDelegate.m */,
+				BFF290662933A9F300EA5644 /* SceneDelegate.h */,
+				BFF290672933A9F300EA5644 /* SceneDelegate.m */,
+				BFF290692933A9F300EA5644 /* ViewController.h */,
+				BFF2906A2933A9F300EA5644 /* ViewController.m */,
+				BFF2906C2933A9F300EA5644 /* Main.storyboard */,
+				BFF2906F2933A9F500EA5644 /* Assets.xcassets */,
+				BFF290712933A9F500EA5644 /* LaunchScreen.storyboard */,
+				BFF290742933A9F500EA5644 /* Info.plist */,
+				BFF290752933A9F500EA5644 /* main.m */,
+			);
+			path = GolangAce;
+			sourceTree = "<group>";
+		};
+		BFF2907E2933A9F500EA5644 /* GolangAceTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2907F2933A9F500EA5644 /* GolangAceTests.m */,
+			);
+			path = GolangAceTests;
+			sourceTree = "<group>";
+		};
+		BFF290882933A9F500EA5644 /* GolangAceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF290892933A9F500EA5644 /* GolangAceUITests.m */,
+				BFF2908B2933A9F500EA5644 /* GolangAceUITestsLaunchTests.m */,
+			);
+			path = GolangAceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF2905F2933A9F300EA5644 /* GolangAce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF2908F2933A9F500EA5644 /* Build configuration list for PBXNativeTarget "GolangAce" */;
+			buildPhases = (
+				BFF2905C2933A9F300EA5644 /* Sources */,
+				BFF2905D2933A9F300EA5644 /* Frameworks */,
+				BFF2905E2933A9F300EA5644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolangAce;
+			productName = GolangAce;
+			productReference = BFF290602933A9F300EA5644 /* GolangAce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF2907A2933A9F500EA5644 /* GolangAceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF290922933A9F500EA5644 /* Build configuration list for PBXNativeTarget "GolangAceTests" */;
+			buildPhases = (
+				BFF290772933A9F500EA5644 /* Sources */,
+				BFF290782933A9F500EA5644 /* Frameworks */,
+				BFF290792933A9F500EA5644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF2907D2933A9F500EA5644 /* PBXTargetDependency */,
+			);
+			name = GolangAceTests;
+			productName = GolangAceTests;
+			productReference = BFF2907B2933A9F500EA5644 /* GolangAceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF290842933A9F500EA5644 /* GolangAceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF290952933A9F500EA5644 /* Build configuration list for PBXNativeTarget "GolangAceUITests" */;
+			buildPhases = (
+				BFF290812933A9F500EA5644 /* Sources */,
+				BFF290822933A9F500EA5644 /* Frameworks */,
+				BFF290832933A9F500EA5644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF290872933A9F500EA5644 /* PBXTargetDependency */,
+			);
+			name = GolangAceUITests;
+			productName = GolangAceUITests;
+			productReference = BFF290852933A9F500EA5644 /* GolangAceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF290582933A9F300EA5644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BFF2905F2933A9F300EA5644 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BFF2907A2933A9F500EA5644 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BFF2905F2933A9F300EA5644;
+					};
+					BFF290842933A9F500EA5644 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BFF2905F2933A9F300EA5644;
+					};
+				};
+			};
+			buildConfigurationList = BFF2905B2933A9F300EA5644 /* Build configuration list for PBXProject "GolangAce" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF290572933A9F300EA5644;
+			productRefGroup = BFF290612933A9F300EA5644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF2905F2933A9F300EA5644 /* GolangAce */,
+				BFF2907A2933A9F500EA5644 /* GolangAceTests */,
+				BFF290842933A9F500EA5644 /* GolangAceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF2905E2933A9F300EA5644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF290732933A9F500EA5644 /* LaunchScreen.storyboard in Resources */,
+				BFF290702933A9F500EA5644 /* Assets.xcassets in Resources */,
+				BFF2906E2933A9F300EA5644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF290792933A9F500EA5644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF290832933A9F500EA5644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF2905C2933A9F300EA5644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2906B2933A9F300EA5644 /* ViewController.m in Sources */,
+				BFF290652933A9F300EA5644 /* AppDelegate.m in Sources */,
+				BFF290762933A9F500EA5644 /* main.m in Sources */,
+				BFF290682933A9F300EA5644 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF290772933A9F500EA5644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF290802933A9F500EA5644 /* GolangAceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF290812933A9F500EA5644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2908C2933A9F500EA5644 /* GolangAceUITestsLaunchTests.m in Sources */,
+				BFF2908A2933A9F500EA5644 /* GolangAceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF2907D2933A9F500EA5644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF2905F2933A9F300EA5644 /* GolangAce */;
+			targetProxy = BFF2907C2933A9F500EA5644 /* PBXContainerItemProxy */;
+		};
+		BFF290872933A9F500EA5644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF2905F2933A9F300EA5644 /* GolangAce */;
+			targetProxy = BFF290862933A9F500EA5644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF2906C2933A9F300EA5644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF2906D2933A9F300EA5644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFF290712933A9F500EA5644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF290722933A9F500EA5644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF2908D2933A9F500EA5644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFF2908E2933A9F500EA5644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF290902933A9F500EA5644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GolangAce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Patterns.GolangAce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF290912933A9F500EA5644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GolangAce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Patterns.GolangAce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFF290932933A9F500EA5644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Patterns.GolangAceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolangAce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolangAce";
+			};
+			name = Debug;
+		};
+		BFF290942933A9F500EA5644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Patterns.GolangAceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolangAce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolangAce";
+			};
+			name = Release;
+		};
+		BFF290962933A9F500EA5644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Patterns.GolangAceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolangAce;
+			};
+			name = Debug;
+		};
+		BFF290972933A9F500EA5644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Patterns.GolangAceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolangAce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF2905B2933A9F300EA5644 /* Build configuration list for PBXProject "GolangAce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2908D2933A9F500EA5644 /* Debug */,
+				BFF2908E2933A9F500EA5644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF2908F2933A9F500EA5644 /* Build configuration list for PBXNativeTarget "GolangAce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF290902933A9F500EA5644 /* Debug */,
+				BFF290912933A9F500EA5644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF290922933A9F500EA5644 /* Build configuration list for PBXNativeTarget "GolangAceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF290932933A9F500EA5644 /* Debug */,
+				BFF290942933A9F500EA5644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF290952933A9F500EA5644 /* Build configuration list for PBXNativeTarget "GolangAceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF290962933A9F500EA5644 /* Debug */,
+				BFF290972933A9F500EA5644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF290582933A9F300EA5644 /* Project object */;
+}
